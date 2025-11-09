@@ -1,5 +1,7 @@
 # mcpset
 
+[![CI](https://github.com/Devdha/mcpset/actions/workflows/ci.yml/badge.svg)](https://github.com/Devdha/mcpset/actions/workflows/ci.yml)
+
 > Unified CLI for keeping MCP client configs in sync.<br/>
 > MCP 클라이언트 설정을 한 번에 관리하는 통합 CLI.
 
