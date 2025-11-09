@@ -34,8 +34,8 @@ classifiers = [
 mcpset = "mcpset.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/donghoonha/mcpset"
-Issues = "https://github.com/donghoonha/mcpset/issues"
+Homepage = "https://github.com/Devdha/mcpset"
+Issues = "https://github.com/Devdha/mcpset/issues"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

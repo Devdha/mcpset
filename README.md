@@ -21,7 +21,7 @@ Language: [English](#english) · [한국어](#한국어)
 
 ### Installation
 ```bash
-git clone https://github.com/donghoonha/mcpset.git
+git clone https://github.com/Devdha/mcpset.git
 cd mcpset
 python3 -m venv .venv
 source .venv/bin/activate
@@ -113,7 +113,7 @@ Released under the MIT License (see `LICENSE`).
 
 ### 설치
 ```bash
-git clone https://github.com/donghoonha/mcpset.git
+git clone https://github.com/Devdha/mcpset.git
 cd mcpset
 python3 -m venv .venv
 source .venv/bin/activate
