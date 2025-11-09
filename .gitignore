@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.env
+.venv
+.DS_Store
+.idea/
+.vscode/
+reports/
+config.json
+mcpset.targets.json
+mcpset.templates.json
+last_*.json

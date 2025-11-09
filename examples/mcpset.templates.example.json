@@ -1,0 +1,60 @@
+{
+  "templates": {
+    "fetcher": {
+      "data": {
+        "command": "npx",
+        "args": ["-y", "fetcher-mcp"]
+      }
+    },
+    "github": {
+      "data": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-github"],
+        "env": {"GITHUB_PERSONAL_ACCESS_TOKEN": "{{GITHUB_TOKEN}}"}
+      }
+    },
+    "grafana": {
+      "data": {
+        "command": "mcp-grafana",
+        "args": [],
+        "env": {"GRAFANA_URL": "{{GRAFANA_URL}}", "GRAFANA_API_KEY": "{{GRAFANA_API_KEY}}"}
+      }
+    },
+    "memory": {
+      "data": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-memory"]
+      }
+    },
+    "postgres": {
+      "data": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-postgres", "{{DSN}}"]
+      }
+    },
+    "redshift": {
+      "data": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-postgres", "{{DSN}}"]
+      }
+    },
+    "playwright-mcp": {
+      "data": {
+        "command": "npx",
+        "args": ["-y", "@smithery/cli@latest", "run", "@microsoft/playwright-mcp", "--key", "{{PLAYWRIGHT_KEY}}"]
+      }
+    },
+    "firecrawl": {
+      "data": {
+        "command": "npx",
+        "args": ["-y", "@smithery/cli@latest", "run", "@mendableai/mcp-server-firecrawl", "--key", "{{FIRECRAWL_KEY}}"]
+      }
+    },
+    "sse-figma": {
+      "data": {
+        "type": "sse",
+        "url": "{{SSE_URL}}"
+      }
+    }
+  }
+}
